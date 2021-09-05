@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprints Chat-App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+    <script>
+        // Enable pusher logging - don't include this in production
+    </script>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- div 1 -->
+
+
+    <div id="first-screen" style="display: block;">
+        <h1> My Chat Application</h1>
+        <input type="text" id="group-name-inp" placeholder="Type your group name">
+        <input type="text" id="name-inp" placeholder="Type your  name">
+        <button id="join-btn" onclick="join();"> Join group</button>
+    </div>
+
+
+
+
+    <br>
+
+    <!-- div 2 -->
+
+
+    <div id="second-screen" style="display: none;">
+
+        <h2 id="groupName">
+            <h3 id ='online-users'></h3>
+        </h2>
+        <button id="logout-btn" onclick="logout();">LogOut</button>
+        <div id="chat-screen">
+
+            <p id="sender">You: hi</p>
+            <p id="reciever"></p>
+            <div id='chat'></div>
+
+            <textarea name="" cols="30" rows="10" type="text" id="sendmsg-inp" placeholder="Message"></textarea>
+            <button id="sendmsg-btn" onclick="sendMessage()">Send Message</button>
+
+            <div>Registration closes in <span id="time">60</span> seconds !</div>
+        </div>
+
+    </div>
+
+    <!-- <script src="main.js"></script> -->
+    <script src="original.js"></script>
+
+
+</body>
+
+</html>

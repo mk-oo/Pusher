@@ -1,0 +1,102 @@
+h1 {
+
+    text-align: center;
+
+}
+
+#join-btn {
+    background-color: #4CAF50;
+    /* Green */
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+#group-name-inp,
+#name-inp {
+
+
+    background-color: rgb(209, 199, 199);
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: black;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    width: 30%;
+    /* Set a width if needed */
+    display: block;
+    /* Make the buttons appear below each other */
+
+    margin-left: 33%;
+    margin-top: 20px;
+
+}
+
+#join-btn {
+    display: block;
+    margin-left: 45%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#second-screen {
+
+    border: 2px solid black;
+}
+
+#logout-btn {
+    background-color: red;
+    /* Green */
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+#sendmsg-btn {
+
+    background-color: rgb(61, 61, 226);
+    /* Green */
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+
+
+}
+
+
+#sender {
+    text-align: right; 
+    border: 3px solid royalblue;
+}
+
+#reciever {
+     border: 3px solid gray;
+}
+
+#sendmsg-inp{
+    display: inline; 
+    height: 50px; 
+    width: 700px; 
+    margin-left: 10vmax;
+}
+#sendmsg-btn{
+    display: inline;  
+    margin-bottom: 50px;
+}
